@@ -1,9 +1,138 @@
-.btn {
-    display: inline-block; 
-    background: #8C959D; 
-    color: #fff; 
-    padding: 1rem 1.5rem; 
-    text-decoration: none; 
-    border-radius: 3px; 
+body {
+  background-image: url(https://img3.goodfon.ru/original/1600x1200/6/95/abstract-fon-wallpaper-green.jpg);
+}
+
+#bg2 {
+  background-image: url(https://img3.goodfon.ru/original/1600x1200/6/95/abstract-fon-wallpaper-green.jpg);
+    margin: 0; 
+    height: 100%; 
+    background-size: 100%;
    }
 
+   .btn {
+    min-width: 100px;
+    min-height: 50px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(80, 123, 173);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #122a5c;
+  }
+  
+  .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  position: fixed; top: 50%; left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+width: 300px;
+height: 400px;
+background-position: center;
+background-color: rgb(208, 229, 235);
+border-radius: 15px 15px;
+}
+
+.wrapper-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+position: fixed; top: 50%; left: 50%;
+position: absolute;
+transform: translate(-50%, -50%);
+width: 300px;
+height: 400px;
+background-position: center;
+background-color: rgb(208, 229, 235);
+border-radius: 15px 15px;
+}
+
+.a-button {
+    min-height: 50px;
+    min-width: 100px;
+    font-family: inherit;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(80, 123, 173);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+  }
+  
+  .a-button:hover {
+    background: #122a5c;
+  }
+  
+  .a-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+.b-button {
+  min-height: 50px;
+  min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(80, 123, 173);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+  }
+  
+  .b-button:hover {
+    background: #122a5c;
+  }
+  
+  .b-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
+.c-button {
+  min-height: 50px;
+  min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(80, 123, 173);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 270px;
+    left: 70px;
+  }
+  
+  .c-button:hover {
+    background: #122a5c;
+  }
+  
+  .c-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }

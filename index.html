@@ -8,16 +8,19 @@
 </head>
 
 <body>
-    <h1>Money Converter</h1>
-    <p>
-        <label>$</label>
-        <input type="number" id="inputdol" placeholder="$" oninput="moneyConverter(this.value)"
-            onchange="moneyConverter(this.value)">
-    </p>
-    <p>UAH: <span id="outputuah"></span></p>
+    <!-- <img id="background" src="wallpaper2you_475256.jpg"> -->
+    <div class="wrapper">
+        <h1>Money Converter</h1>
+        <p>
+            <label>$</label>
+            <input type="number" id="inputdol" placeholder="$" oninput="moneyConverter(this.value)"
+                onchange="moneyConverter(this.value)">
+        </p>
+        <p>UAH: <span id="outputuah"></span></p>
 
-    <input type="button" value="Вывести деньги" onclick="document.location='new.html'" class="btn"/>
+        <input type="button" value="Вывести деньги" onclick="document.location='payout.html'" class="btn" />
 
+    </div>
 
     <script src="script.js"></script>
 </body>
